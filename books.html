@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Books Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="clock" id="clock">00:00:00</div>
+
+  <script>
+    function updateClock() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+      document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock(); // run once immediately
+  </script>
+   <div class="background"></div>
+   <div class="overlay"></div>
+ 
+   <div class="content">
+     <h1 id="welcome">"Free books, endless knowledge."</h1>
+   </div>
+  <a href="https://forms.gle/8iDiZ8K6anxne7g88" target="_blank">
+    <button>Give Feedback / Request a Course</button>
+  </a>
+  
+  <div class="card-row">
+    <div class="card">
+      <img src="images/HARRY LATTHER.png" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Code with harry</h2>
+        <p class="card-text">Code With Harry is my attempt to teach basics and those coding techniques to people..</p>
+        <a href="https://www.youtube.com/@CodeWithHarry" target="_blank" class="card-button">Enroll now </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/SHRADHA ANPA COLLEGE.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">DSA by Shradha Ma'am</h2>
+        <p class="card-text">Co-Founder, Apna College | 6Million+ YT | Ex-SDE Microsoft | Google SPS’20</p>
+        <a href="https://docs.google.com/spreadsheets/u/0/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/htmlview" target="_blank" class="card-button">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/aman.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">AMAN DHATTARWA</h2>
+        <p class="card-text">On a mission to teach 5 Crore students10Million+ students reached🚀 | a full time Learner.</p>
+        <a href="https://drive.google.com/drive/u/0/folders/12QGNggB_2sGKQ25n6cMzrwdjqP3Afs9n" target="_blank" class="card-button">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/download.png" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">WordPress </h2>
+        <p class="card-text">WordPress is a free, open-source content management system (CMS) that lets users create and manage websites.</p>
+        <a href="https://mega.nz/folder/bp1WDKYD#DEy_7EgbtfDh-udLoQtD_g" target="_blank" class="card-button">Enroll Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="card-row">
+    <!-- You can repeat the same structure for each card -->
+    <!-- Just updating card titles and text for variety -->
+
+    <!-- Card 1 to 10 -->
+    <div class="card">
+      <img src="images/software.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Software Engineering</h2>
+        <p class="card-text">Software developers and engineers create new software-based services and products,</p>
+        <a href="https://forms.gle/mgR6KzvNKDw3ujnEA" target="_blank" class="card-button">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/dhuve rathe new.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Dhruv Rathee course</h2>
+        <p class="card-text">Dhruv Rathee is an Indian YouTuber, vlogger,.</p>
+        <a href="https://forms.gle/mgR6KzvNKDw3ujnEA" target="_blank" class="card-button">Enroll Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/cyber security.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Cybersecurity</h2>
+        <p class="card-text">Computer security is a subdiscipline within the field of information securit.</p>
+        <a href="https://forms.gle/SEQ2Bmt3YENB1UPo7" target="_blank" class="card-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/ai.webp" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Artificial intelligence</h2>
+        <p class="card-text">Artificial intelligence refers to the capability of computational systems.</p>
+        <a href="https://forms.gle/SEQ2Bmt3YENB1UPo7" target="_blank" class="card-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/web.avif" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Web development</h2>
+        <p class="card-text">Web development is the work involved in developing a website for the Internet .</p>
+        <a href="https://forms.gle/SEQ2Bmt3YENB1UPo7" target="_blank" class="card-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/data s.webp" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Data Science </h2>
+        <p class="card-text">Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific.</p>
+        <a href="#" class="card-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/images.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">DevOps</h2>
+        <p class="card-text">DevOps courses teach both the tools and the mindset needed to improve collaboration between development and IT operations..</p>
+        <a href="#" class="card-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/data analytics.png" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Data analytics</h2>
+        <p class="card-text">Data Analytics. In our data-driven world, it is critical to analyze and interpret information..</p>
+        <a href="#" class="card-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/machine learing.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Machine learning</h2>
+        <p class="card-text">Machine learning is a field of study in artificial intelligence concerned with the developmen.</p>
+        <a href="#" class="card-button">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/love babar.jpg" alt="Card image">
+      <div class="card-body">
+        <h2 class="card-title">Love babbar </h2>
+        <p class="card-text">
+          Building CodeHelp RED | SSB Recommended | TedX Speaker | Ex-Amazon | Ex-Microsoft</p>
+        <a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" class="card-button">Enroll Now</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

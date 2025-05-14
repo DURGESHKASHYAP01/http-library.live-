@@ -1,0 +1,255 @@
+#box{
+    background-color: red;
+}
+.heading{
+    color: lightcoral;
+}
+ button{
+    background-color: rgb(250, 250, 250);
+ }
+ .card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+  }
+
+  .card-text {
+    color: #555;
+    font-size: 0.95em;
+    margin-bottom: 15px;
+  }
+
+  .card-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  .card-row {
+    display: flex;
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .card {
+    flex: 1 1 calc(25% - 20px); /* 4 cards per row with space between */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 300px;
+    min-width: 250px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+  }
+
+  .card-text {
+    color: #555;
+    font-size: 0.95em;
+    margin-bottom: 15px;
+  }
+
+  .card-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Optional: Responsive adjustments */
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      flex: 1 1 100%; /* 1 card per row */
+    }
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .card {
+    flex: 1 1 calc(20% - 20px); /* 5 cards per row on large screen */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 300px;
+    min-width: 200px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.1em;
+    margin: 0 0 10px;
+  }
+
+  .card-text {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+
+  .card-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive tweaks */
+  @media (max-width: 1024px) {
+    .card {
+      flex: 1 1 calc(33.33% - 20px); /* 3 per row */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 calc(50% - 20px); /* 2 per row */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      flex: 1 1 100%; /* 1 per row */
+    }
+  }
+  .links{
+    margin: 10px;
+    display: flex;
+    font-size: 20px;
+    border: 10px;
+    justify-content: space-between;
+    
+  }
+   .clock {
+      position: fixed;
+      top: 10px;
+      right: 20px;
+      color: #000000;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 18px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('images/pexels-pixabay-256431.jpg'); /* Replace this */
+        background-size: cover;
+        background-position: center;
+        filter: blur(10px);
+        z-index: -2;
+      }
+  
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(223, 216, 216, 0.5);
+        z-index: -1;
+      }
+  
+      .content {
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(11, 55, 73);
+        text-align: center;
+        z-index: 1;
+      }
+  
+      /* 🔥 Stylish Title */
+      #welcome {
+        font-size: 60px;
+        font-weight: bold;
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+                     0 0 16px rgba(250, 249, 249, 0.6),
+                     0 0 24px rgba(255, 255, 255, 0.4);
+        transition: all 0.3s ease;
+      }
+  
+      #welcome:hover {
+        text-shadow: 0 0 12px rgba(255, 255, 255, 1),
+                     0 0 24px rgba(255, 255, 255, 0.8);
+      }
